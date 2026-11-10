@@ -1,0 +1,16 @@
+# Club data, player names and the saved API token: never commit
+sport_science_data/
+
+# Installed packages (rebuilt by the launcher)
+backend/.venv/
+backend/.venv-mac/
+__pycache__/
+*.pyc
+frontend/node_modules/
+frontend/dist/
+
+# Mac, big installers, video
+.DS_Store
+install/*.exe
+install/*.msi
+*.mp4

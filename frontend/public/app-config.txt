@@ -1,0 +1,24 @@
+# Catapult Reporting — startup defaults
+#
+# Edit the values after each colon below, save this file, then refresh the
+# app in your browser (no rebuild/restart needed — it's just read as plain
+# text when the page loads).
+#
+# Leave a value blank to fall back to its automatic default:
+#   - dates default to today
+#   - tags default to "all activities" (no tag filter)
+#   - periods default to "all periods" for that average
+#
+# Dates must be entered as YYYY-MM-DD (e.g. 2026-07-01). Anything else is
+# ignored and falls back to today.
+#
+# Periods are comma-separated, matching whatever period names your
+# Catapult account uses (e.g. Q1,Q2,Q3,Q4). Matching ignores case and
+# spaces, so "q1, q2" and "Q1,Q2" both work.
+
+default_start_date:
+default_end_date:
+default_training_tag: MD-2
+default_training_periods:
+default_match_tag: 25 Match
+default_match_periods:
